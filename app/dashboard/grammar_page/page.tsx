@@ -1,4 +1,4 @@
-export default function Vovab_Page() {
+export default function grammar_page() {
     return (
         <main>
         <p>Grammer page WIP</p>
