@@ -1,7 +1,7 @@
 export default function Vovab_Page() {
     return (
         <main>
-        <p>Vocab page WIP</p>
+        <p>Grammer page WIP</p>
         </main>
     );
   }
