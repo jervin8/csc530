@@ -3,8 +3,8 @@
 import Button from "./button";
 
 import Image from "next/image";
-import placeholderIcon from "../../public/placeholderIcon.svg";
 import companyLogoIcon from "../../public/companyPlaceholderIcon.svg";
+import placeholderIcon from "../../public/placeholderIcon.svg";
 
 const navigation = [
   { id: 0, name: 'Learn', href: "dashboard/learn", current: true },
