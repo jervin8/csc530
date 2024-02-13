@@ -6,9 +6,9 @@ import Image from "next/image";
 import companyLogoIcon from "../../public/companyPlaceholderIcon.svg";
 
 const navigation = [
-  { id: 0, name: 'About', href: "dashboard/about", current: true },
-  { id: 1, name: 'Pricing', href: "dashboard/#", current: true },
-  { id: 2, name: 'Support', href: "dashboard/support", current: false },
+  { id: 0, name: 'About', href: "about", current: true },
+  { id: 1, name: 'Pricing', href: "#", current: true },
+  { id: 2, name: 'Support', href: "support", current: false },
   { id: 3, name: 'Login', href: "login", current: false },
 ]
 
