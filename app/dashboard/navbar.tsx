@@ -4,12 +4,13 @@ import Button from "./button";
 
 import Image from "next/image";
 import companyLogoIcon from "../../public/companyPlaceholderIcon.svg";
+import placeholderIcon from "../../public/placeholderIcon.svg";
 
 const navigation = [
-  { id: 0, name: 'About', href: "dashboard/about", current: true },
-  { id: 1, name: 'Pricing', href: "dashboard/#", current: true },
-  { id: 2, name: 'Support', href: "dashboard/support", current: false },
-  { id: 3, name: 'Login', href: "login", current: false },
+  { id: 0, name: 'Learn', href: "dashboard/learn", current: true },
+  { id: 1, name: 'Review', href: "dashboard/review", current: true },
+  { id: 2, name: 'Content', href: "dashboard/#", current: false },
+  { id: 3, name: 'Practice', href: "dashboard/#", current: false },
 ]
 
 const navList = navigation.map(item => <li key={item.id} className="md:ml-8 text-xl md:my-0 my-7"><a className="hover:text-gray-400 duration-500" href={item.href}>{item.name}</a></li>);
@@ -30,7 +31,13 @@ export default function NavBar() {
                 </ul>
                 <div className="h-full">
                     <Button>
-                        Try Our Thing
+                        <Image priority src={placeholderIcon} alt="Profile Icon" height="48"/>     
+                    </Button>
+                    <Button>
+                        <Image priority src={placeholderIcon} alt="Notification Icon" height="48"/>     
+                    </Button>
+                    <Button>
+                        <Image priority src={placeholderIcon} alt="Search Icon" height="48"/>     
                     </Button>
                 </div>
             </div>
