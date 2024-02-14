@@ -1,13 +1,15 @@
-import NavBar from "./navbar";
+import NavBar from "../../public_components/navbar";
 
-export default function Login() {
+export default function Pricing() {
     return (
-        
-        <main>
-            <header>
-        <NavBar/>
-       </header>
-        <p>Pricing page WIP</p>
-        </main>
-    );
-  }
+        <main className="h-screen">
+            <NavBar/>
+
+            <div className="pagecontainer pt-20">
+                <div className="container h-full mx-auto text-white">
+                    <p>Pricing Page WIP</p>
+                </div>
+            </div>
+      </main>
+    )
+}

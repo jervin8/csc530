@@ -1,13 +1,15 @@
-import NavBar from "./navbar";
+import NavBar from "../../public_components/navbar";
 
-export default function Login() {
+export default function Support() {
     return (
-        
-        <main>
-            <header>
-        <NavBar/>
-       </header>
-        <p>Support page WIP</p>
-        </main>
-    );
-  }
+        <main className="h-screen">
+            <NavBar/>
+
+            <div className="pagecontainer pt-20">
+                <div className="container h-full mx-auto text-white">
+                    <p>Support Page WIP</p>
+                </div>
+            </div>
+      </main>
+    )
+}

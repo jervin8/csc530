@@ -31,3 +31,8 @@ body {
     text-wrap: balance;
   }
 }
+
+.pagecontainer {
+  background-color: gray;
+  height: 100%;
+}
