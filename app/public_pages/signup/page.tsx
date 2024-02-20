@@ -10,11 +10,12 @@ const RegisterForm: React.FC = () => {
           <div className="w-full lg:w-1/2 flex flex-col items-center justify-center p-12 bg-no-repeat bg-cover bg-center" style={{backgroundImage: "url('images/Register-Background.png')"}}>
             <h1 className="text-white text-3xl mb-3">Welcome</h1>
             <div>
-              <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean suspendisse aliquam varius rutrum purus maecenas ac <a href="signup" className="text-purple-500 font-semibold">Sign Up</a></p>
+              <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean suspendisse aliquam varius rutrum purus maecenas ac <a href="login" className="text-purple-500 font-semibold">Log in</a></p>
             </div>
           </div>
           <div className="w-full lg:w-1/2 py-16 px-12">
-            <h2 className="text-3xl mb-4">Login</h2>
+            <h2 className="text-3xl mb-4">Sign Up</h2>
+           
             <form action="#">
              
               <div className="mt-5">
@@ -23,6 +24,7 @@ const RegisterForm: React.FC = () => {
               <div className="mt-5">
                 <input type="password" placeholder="Password" className="border border-gray-400 py-1 px-2 w-full" />
               </div>
+
               <div className="mt-5">
                 <input type="checkbox" className="border border-gray-400" />
                 <span>
